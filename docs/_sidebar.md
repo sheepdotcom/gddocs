@@ -86,7 +86,7 @@
   - [readGJFriendRequest20](/endpoints/socials/readGJFriendRequest20.md)
   - [removeGJFriend20](/endpoints/socials/removeGJFriend20.md)
   - [unblockGJUser20](/endpoints/socials/unblockGJUser20.md)
-  - [uploadFriendRequest20](/endpoints/socials/UploadFriendRequest20.md)
+  - [uploadFriendRequest20](/endpoints/socials/uploadFriendRequest20.md)
   - [uploadGJMessage20](/endpoints/socials/uploadGJMessage20.md)
 **Rewards**
   - [getGJChallenges](/endpoints/rewards/getGJChallenges.md)

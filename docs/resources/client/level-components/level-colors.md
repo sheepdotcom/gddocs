@@ -72,10 +72,10 @@ Here are all of the different color id's:
 | `1007`    | **LBG**           | This is the static color channel that is a lighter version of `BG` |
 | `1009`    | **G2**            | This is the secondary color of the ground |
 | `1010`    | **BLACK**         | This is the static color channel which is always `r: 0, g: 0, b: 0`. Used in saws that are black by default |
-
-### Undiscovered color channel IDs
-`WHITE`: Static color that is always `r: 255, g: 255, b: 255`  
-`LIGHTER`: A lighter version of the primary color in objects. Used in the white small blocks found in `build tab 2 on page 6`.
+| `1011`    | **WHITE**         | This is the static color channel which is always `r: 255, g: 255, b: 255` |
+| `1012`    | **LIGHTER**       | A lighter version of the primary color in objects. Used in the white small blocks found in `build tab 2 on page 6` |
+| `1013`    | **MG**            | This is the primary color of the middleground |
+| `1014`    | **MG2**           | This is the secondary color of the middleground |
 
 ### 1.9 color channel ID's
 GD's 1.9 version used a different ID scheme to identify color channels. In 2.0+, these IDs are still present, but only used in the legacy `1.9 Color Channel ID` property of 1.9 objects. They are as follows:

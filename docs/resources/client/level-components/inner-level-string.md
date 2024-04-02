@@ -13,27 +13,45 @@ Theoretically, the inner level string in its entirety is the object string, howe
 ## Level Start Object
 The level start object is still an object and formated exactly like a normal [level object](level-object.md), but has the following properties instead:
 
-| Key  | Name                   | Type                                        | Description                                                                                                    |
-|:-----|:-----------------------|:--------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
-| kA1  | AudioTrack             | **Integer**                                 | The audio track which the level uses |
-| kA2  | Gamemode               | **[Gamemode](enumerations.md)**             | the gamemode the player starts with                                                                            |
-| kA3  | Mini Mode              | **bool**                                    | determines whether the player starts off as mini Mode                                                          |
-| kA4  | Speed                  | **[Speed](enumerations.md)**                | the speed of the level at the starts                                                                           |
-| kA6  | Background Texture ID  | **integer**                                 | the ID of the background texture that is being used in the level<br/>(enumerated in the same order as appears) |
-| kA7  | Ground Texture ID      | **integer**                                 | the ID of the ground texture that is being used in the level<br/>(enumerated in the same order as appears)     |
-| kA8  | Dual Mode              | **bool**                                    | determines whether the player starts off in dual Mode                                                          |
-| kA9  | Level/Start Pos Object | **bool**                                    | determines whether this object represents a Level Start or a Start Pos object (true for the latter)            |
-| kA10 | 2-Player Mode          | **bool**                                    | determines whether 2-Player Mode is toggled on for this level                                                  |
-| kA11 | Flip Gravity           | **bool**                                    | determines whether the player starts off in flipped Gravity                                                    |
-| kA13 | Song Offset            | **float**                                   | the song offset in seconds from which the level begins                                                         |
-| kA14 | Guidelines             | **[Guideline String](guideline-string.md)** | the editor song guidelines of the level                                                                        |
-| kA15 | Fade In                | **bool**                                    | determines whether the song will fade in as soon as the level starts                                           |
-| kA16 | Fade Out               | **bool**                                    | determines whether the song will fade in as soon as the level ends                                             |
-| kA17 | Ground Line            | **integer**                                 | the ID of the ground line that is being used in the level                                                      |
-| kA18 | Font                   | **integer**                                 | the ID of the font that is being used in the level                                                             |
-| kA22 | Platformer Mode        | **Bool**                                    | If platformer Mode is toggled on or off (currently only available in the December 2019 2.2 leaks)              |
-| kS38 | Colors                 | **[Color String](color-string.md)**         | the color channels that are being used in this level                                                           |
-| kS39 | Color Page             | **integer**                                 | the color page which was last displayed in the color channel display window                                    |
+| Key  | Name                    | Type                                        | Description                                                                                                      |
+|:-----|:------------------------|:--------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
+| kA1  | AudioTrack              | **Integer**                                 | The audio track which the level uses                                                                             |
+| kA2  | Gamemode                | **[Gamemode](enumerations.md)**             | the gamemode the player starts with                                                                              |
+| kA3  | Mini Mode               | **bool**                                    | determines whether the player starts off as mini Mode                                                            |
+| kA4  | Speed                   | **[Speed](enumerations.md)**                | the speed of the level at the starts                                                                             |
+| kA6  | Background Texture ID   | **integer**                                 | the ID of the background texture that is being used in the level<br/>(enumerated in the same order as appears)   |
+| kA7  | Ground Texture ID       | **integer**                                 | the ID of the ground texture that is being used in the level<br/>(enumerated in the same order as appears)       |
+| kA8  | Dual Mode               | **bool**                                    | determines whether the player starts off in dual Mode                                                            |
+| kA9  | Level/Start Pos Object  | **bool**                                    | determines whether this object represents a Level Start or a Start Pos object (true for the latter)              |
+| kA10 | 2-Player Mode           | **bool**                                    | determines whether 2-Player Mode is toggled on for this level                                                    |
+| kA11 | Flip Gravity            | **bool**                                    | determines whether the player starts off in flipped Gravity                                                      |
+| kA13 | Song Offset             | **float**                                   | the song offset in seconds from which the level begins                                                           |
+| kA14 | Guidelines              | **[Guideline String](guideline-string.md)** | the editor song guidelines of the level                                                                          |
+| kA15 | Fade In                 | **bool**                                    | determines whether the song will fade in as soon as the level starts                                             |
+| kA16 | Fade Out                | **bool**                                    | determines whether the song will fade in as soon as the level ends                                               |
+| kA17 | Ground Line             | **integer**                                 | the ID of the ground line that is being used in the level                                                        |
+| kA18 | Font                    | **integer**                                 | the ID of the font that is being used in the level                                                               |
+| kA20 | Reverse Gameplay        | **bool**                                    | determines whether the player starts off reversed                                                                |
+| kA22 | Platformer Mode         | **bool**                                    | If platformer Mode is toggled on or off                                                                          |
+| kA25 | Middleground Texture ID | **integer**                                 | the ID of the middleground texture that is being used in the level<br/>(enumerated in the same order as appears) |
+| kA27 | Allow Multi-Rotation    | **bool**                                    | legacy setting                                                                                                   |
+| kA28 | Mirror Mode             | **bool**                                    | determines whether the player starts off mirrored                                                                |
+| kA29 | Rotate Gameplay         | **bool**                                    | determines whether the player starts with rotated gameplay                                                       |
+| kA31 | Enable Player Squeeze   | **bool**                                    | legacy setting                                                                                                   |
+| kA32 | Fix Gravity Bug         | **bool**                                    | legacy setting                                                                                                   |
+| kA33 | Fix Negative Scale      | **bool**                                    | legacy setting                                                                                                   |
+| kA34 | Fix Robot Jump          | **bool**                                    | legacy setting                                                                                                   |
+| kA36 | Spawn Group             | **integer**                                 | the group ID of the object the player will spawn at                                                              |
+| kA37 | Dynamic Level Height    | **bool**                                    | legacy setting                                                                                                   |
+| kA38 | Sort Groups             | **bool**                                    | legacy setting                                                                                                   |
+| kA39 | Fix Radius Collision    | **bool**                                    | legacy setting                                                                                                   |
+| kA40 | Enable 2.2 Changes      | **bool**                                    | legacy setting                                                                                                   |
+| kA41 | Allow Static Rotate     | **bool**                                    | legacy setting                                                                                                   |
+| kA42 | Reverse Sync            | **bool**                                    | legacy setting                                                                                                   |
+| kA43 | No Time Penalty         | **bool**                                    | toggle to not lose 1000 points per second in platformer mode                                                     |
+| kA45 | Decrease Boost Slide    | **bool**                                    | legacy setting                                                                                                   |
+| kS38 | Colors                  | **[Color String](color-string.md)**         | the color channels that are being used in this level                                                             |
+| kS39 | Color Page              | **integer**                                 | the color page which was last displayed in the color channel display window                                      |
 
 ***Pre-2.0 Keys***
 
