@@ -44,6 +44,8 @@ Property keys reflect the keys found in the following table, whereas property va
 ### Level Object Data
 **Level Object Structure**
 
+> Please go visit [GD Info Explorer](https://flowvix.github.io/gd-info-explorer/) for an updated list of all object properties. I do not want to update all this myself right now
+
 | Key | Name/Value                           | Type                                            | Description                                                                        |
 |:----|:-------------------------------------|:------------------------------------------------|:-----------------------------------------------------------------------------------|
 | 1   | Object ID                            | **integer**                                     | the ID of the object                                                               |

@@ -53,7 +53,7 @@ Keys indicated with an asterisk (\*) are only returned from the downloadGJLevel2
 | 30  | copiedID                 | **Integer** 				                     | The ID the of the original level (if the level was copied)   
 | 31  | twoPlayer                | **Bool** 				                     | Whether the level uses two player mode
 | 35  | customSongID             | **Integer** 				                     | The ID of the custom Newgrounds song used in the level    
-| 36  | extraString              | **String**                                    | The extraString passed when uploading the level. Its use is currently unknown
+| 36  | extraString              | **String**                                    | The extraString passed when uploading the level. Its use is currently unknown. It is actually the [capacity string](/resources/client/level-components/capacity-string.md)
 | 37  | coins                    | **Integer** 				                     | The number of user coins placed in the level      
 | 38  | verifiedCoins            | **Bool** 				                     | If the level's user coins are verified (silver)
 | 39  | starsRequested           | **Integer** 				                     | The star value requested for the level     
@@ -66,6 +66,9 @@ Keys indicated with an asterisk (\*) are only returned from the downloadGJLevel2
 | 46  | editorTime               | **Integer** 				                     | the total number of seconds spend on the current copy of a level
 | 47  | editorTime(Copies)       | **Integer** 				                     | The accumulative total of seconds spend on previous copies of the level
 | 48  | settingsString [Unused]  | **String**                                    | It was found in early 2.1 coming from the servers and was removed shortly after. The `December 2019 2.2 Leaks` however have information regarding it showing that it is called `settingsString` but, there is no information regarding its usage |
+| 52  | songIDs                  | **String**                                    | A list of songs ids used seperated by a `,`
+| 53  | sfxIDs                   | **String**                                    | A list of sfx ids used seperated by a `,`
+| 57  | timeStamp                | **Integer**                                   | The exact length of a level in seconds, multiplied by 240. For platformer levels, this determines how long it took to verify without checkpoint times
 
 ### Trivia
 
