@@ -6,7 +6,7 @@ Welcome to the Geometry Dash documentation project. On this website, you will fi
 
 ## Contributions
 
-> If you wish to contribute to ~~this~~ my project, please submit a [Pull Request](https://github.com/sheepdotcom/gddocs) in ~~our~~ my GitHub repository
+> If you wish to contribute to ~~this~~ my project, please submit a Pull Request in ~~our~~ my [Github repository](https://github.com/sheepdotcom/gddocs)
 
 > Btw this is modded by sheepdotcom!!! They were too lazy so I am updating this myself!
 

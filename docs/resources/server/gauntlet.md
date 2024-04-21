@@ -32,54 +32,58 @@ A list of all known keys can be found in the table below
 
 Here is a table which shows which `gauntletID` corresponds to a specific gauntlet
 
-<!-- table made with a json to mdtable script so it looks ugky :/-->
-
-| ID ⠀| Name |
-|:---|:-----|
-  | 1| Fire|
-  | 2| Ice|
-  | 3| Poison|
-  | 4| Shadow|
-  | 5| Lava|
-  | 6| Bonus|
-  | 7| Chaos|
-  | 8| Demon|
-  | 9| Time|
-  | 10| Crystal|
-  | 11| Magic|
-  | 12| spike|
-  | 13| Monster|
-  | 14| Doom|
-  | 15| Death|
-  | 16| Forest|
-  | 17| Rune|
-  | 18| Force|
-  | 19| Spooky|
-  | 20| Dragon|
-  | 21| Water|
-  | 22| Haunted|
-  | 23| Acid|
-  | 24| Witch|
-  | 25| Power|
-  | 26| Potion|
-  | 27| Snake|
-  | 28| Toxic|
-  | 29| Halloween|
-  | 30| Treasure|
-  | 31| Ghost|
-  | 32| Gem|
-  | 33| Inferno|
-  | 34| Portal|
-  | 35| Strange|
-  | 36| Fantasy|
-  | 37| Christmas|
-  | 38| Surprise|
-  | 39| Mystery|
-  | 40| Cursed|
-  | 41| Cyborg|
-  | 42| Castle|
-  | 43| Grave|
-  | 44| Temple|
+| ID ⠀| Name     |
+|:----|:---------|
+| 1   | Fire     |
+| 2   | Ice      |
+| 3   | Poison   |
+| 4   | Shadow   |
+| 5   | Lava     |
+| 6   | Bonus    |
+| 7   | Chaos    |
+| 8   | Demon    |
+| 9   | Time     |
+| 10  | Crystal  |
+| 11  | Magic    |
+| 12  | Spike    |
+| 13  | Monster  |
+| 14  | Doom     |
+| 15  | Death    |
+| 16  | Forest   |
+| 17  | Rune     |
+| 18  | Force    |
+| 19  | Spooky   |
+| 20  | Dragon   |
+| 21  | Water    |
+| 22  | Haunted  |
+| 23  | Acid     |
+| 24  | Witch    |
+| 25  | Power    |
+| 26  | Potion   |
+| 27  | Snake    |
+| 28  | Toxic    |
+| 29  | Halloween|
+| 30  | Treasure |
+| 31  | Ghost    |
+| 32  | Spider   |
+| 33  | Gem      |
+| 34  | Inferno  |
+| 35  | Portal   |
+| 36  | Strange  |
+| 37  | Fantasy  |
+| 38  | Christmas|
+| 39  | Surprise |
+| 40  | Mystery  |
+| 41  | Cursed   |
+| 42  | Cyborg   |
+| 43  | Castle   |
+| 44  | Grave    |
+| 45  | Temple   |
+| 46  | World    |
+| 47  | Galaxy   |
+| 48  | Universe |
+| 49  | Discord  |
+| 50  | Split    |
 
 ### Trivia
 

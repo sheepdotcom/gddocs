@@ -8,7 +8,7 @@ Uploads a comment to a user level.
 
 **accountID** - The commenter's account ID
 
-**gjp** - The commenter's [GJP](/topics/encryption/gjp.md)
+**gjp** - The commenter's [GJP](/topics/gjp.md)
 
 **userName** - The commenter's username
 
@@ -20,7 +20,7 @@ Uploads a comment to a user level.
 
 **percent** - The level percentage shown on the comment
 
-[**chk**](/topics/encryption/chk) - `userName` + `comment` + `levelID` + `percent`
+[**chk**](/topics/encryption/chk) - `userName` + `comment` + `levelID` + `percent` + `0`
 
 ### Optional Parameters
 

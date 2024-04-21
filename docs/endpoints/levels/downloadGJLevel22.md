@@ -20,7 +20,7 @@ Downloads a user level and info so it can be played.
 
 **accountID** - The account ID of the user who is downloading the level
 
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user who is downloading the level
+**gjp** - The [GJP](/topics/gjp.md) of the user who is downloading the level
 
 **udid** - The [udid](/topics/encryption/id?id=udid) of the user who is downloading the level
 
@@ -36,7 +36,14 @@ Downloads a user level and info so it can be played.
 
 ## Response
 
-Returns a [level object](/resources/server/level.md).
+```
+level#hash1#hash2
+```
+
+where:
+
+- `level` is a [level object](/resources/server/level.md)
+- `hash1` and `hash2` are hashes generated from level, see [Hashes](/resources/server/hashes.md)
 
 ## Example
 

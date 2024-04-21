@@ -12,12 +12,13 @@ Gets a list of levels.
 
 **accountID** - The account ID of the user who is searching the levels. Only sent when **type** is set to 8, 13 or when **type** is set to 5 and you are loading your own levels.  
 
-**type** - Controls the fetch priority.  
+**type** - Controls the fetch priority.
 
 | type | desc |
 | ---- | ---- |
-| 0 | most liked |
+| 0 | search for list ID |
 | 1 | most downloaded |
+| 2 | search with no filter |
 | 4 | recent |
 | 5 | user's levels (uses the player ID, **not the account ID,** in the `str` parameter to get which user) |
 | 6 | featured |
